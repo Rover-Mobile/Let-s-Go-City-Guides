@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDA1300150E783800F7E2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA12FF150E783800F7E2D5 /* UIKit.framework */; };
+		7CDA1302150E783800F7E2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA1301150E783800F7E2D5 /* Foundation.framework */; };
+		7CDA1304150E783800F7E2D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA1303150E783800F7E2D5 /* CoreGraphics.framework */; };
+		7CDA130A150E783800F7E2D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1308150E783800F7E2D5 /* InfoPlist.strings */; };
+		7CDA130C150E783800F7E2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA130B150E783800F7E2D5 /* main.m */; };
+		7CDA1310150E783800F7E2D5 /* LG_ShellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA130F150E783800F7E2D5 /* LG_ShellAppDelegate.m */; };
+		7CDA1313150E783800F7E2D5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1311150E783800F7E2D5 /* MainWindow.xib */; };
+		7CDA1316150E783800F7E2D5 /* LG_ShellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1315150E783800F7E2D5 /* LG_ShellViewController.m */; };
+		7CDA1319150E783800F7E2D5 /* LG_ShellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1317150E783800F7E2D5 /* LG_ShellViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CDA12FB150E783800F7E2D5 /* LG Shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LG Shell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDA12FF150E783800F7E2D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CDA1301150E783800F7E2D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CDA1303150E783800F7E2D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CDA1307150E783800F7E2D5 /* LG Shell-Info.plist */ = {isa = PBXFileReference; path = "LG Shell-Info.plist"; sourceTree = "<group>"; };
+		7CDA1309150E783800F7E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CDA130B150E783800F7E2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDA130D150E783800F7E2D5 /* LG Shell-Prefix.pch */ = {isa = PBXFileReference; path = "LG Shell-Prefix.pch"; sourceTree = "<group>"; };
+		7CDA130E150E783800F7E2D5 /* LG_ShellAppDelegate.h */ = {isa = PBXFileReference; path = LG_ShellAppDelegate.h; sourceTree = "<group>"; };
+		7CDA130F150E783800F7E2D5 /* LG_ShellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LG_ShellAppDelegate.m; sourceTree = "<group>"; };
+		7CDA1312150E783800F7E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7CDA1314150E783800F7E2D5 /* LG_ShellViewController.h */ = {isa = PBXFileReference; path = LG_ShellViewController.h; sourceTree = "<group>"; };
+		7CDA1315150E783800F7E2D5 /* LG_ShellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LG_ShellViewController.m; sourceTree = "<group>"; };
+		7CDA1318150E783800F7E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LG_ShellViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDA12F8150E783800F7E2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDA1300150E783800F7E2D5 /* UIKit.framework in Frameworks */,
+				7CDA1302150E783800F7E2D5 /* Foundation.framework in Frameworks */,
+				7CDA1304150E783800F7E2D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CDA12F0150E783800F7E2D5 = {
+			isa = PBXGroup;
+			children = (
+				7CDA1305150E783800F7E2D5 /* LG Shell */,
+				7CDA12FE150E783800F7E2D5 /* Frameworks */,
+				7CDA12FC150E783800F7E2D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDA12FC150E783800F7E2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA12FB150E783800F7E2D5 /* LG Shell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDA12FE150E783800F7E2D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA12FF150E783800F7E2D5 /* UIKit.framework */,
+				7CDA1301150E783800F7E2D5 /* Foundation.framework */,
+				7CDA1303150E783800F7E2D5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CDA1305150E783800F7E2D5 /* LG Shell */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA130E150E783800F7E2D5 /* LG_ShellAppDelegate.h */,
+				7CDA130F150E783800F7E2D5 /* LG_ShellAppDelegate.m */,
+				7CDA1311150E783800F7E2D5 /* MainWindow.xib */,
+				7CDA1314150E783800F7E2D5 /* LG_ShellViewController.h */,
+				7CDA1315150E783800F7E2D5 /* LG_ShellViewController.m */,
+				7CDA1317150E783800F7E2D5 /* LG_ShellViewController.xib */,
+				7CDA1306150E783800F7E2D5 /* Supporting Files */,
+			);
+			path = "LG Shell";
+			sourceTree = "<group>";
+		};
+		7CDA1306150E783800F7E2D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA1307150E783800F7E2D5 /* LG Shell-Info.plist */,
+				7CDA1308150E783800F7E2D5 /* InfoPlist.strings */,
+				7CDA130B150E783800F7E2D5 /* main.m */,
+				7CDA130D150E783800F7E2D5 /* LG Shell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDA12FA150E783800F7E2D5 /* LG Shell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDA131C150E783800F7E2D5 /* Build configuration list for PBXNativeTarget "LG Shell" */;
+			buildPhases = (
+				7CDA12F7150E783800F7E2D5 /* Sources */,
+				7CDA12F8150E783800F7E2D5 /* Frameworks */,
+				7CDA12F9150E783800F7E2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LG Shell";
+			productName = "LG Shell";
+			productReference = 7CDA12FB150E783800F7E2D5 /* LG Shell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDA12F2150E783800F7E2D5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7CDA12F5150E783800F7E2D5 /* Build configuration list for PBXProject "LG Shell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CDA12F0150E783800F7E2D5;
+			productRefGroup = 7CDA12FC150E783800F7E2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDA12FA150E783800F7E2D5 /* LG Shell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDA12F9150E783800F7E2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDA130A150E783800F7E2D5 /* InfoPlist.strings in Resources */,
+				7CDA1313150E783800F7E2D5 /* MainWindow.xib in Resources */,
+				7CDA1319150E783800F7E2D5 /* LG_ShellViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDA12F7150E783800F7E2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDA130C150E783800F7E2D5 /* main.m in Sources */,
+				7CDA1310150E783800F7E2D5 /* LG_ShellAppDelegate.m in Sources */,
+				7CDA1316150E783800F7E2D5 /* LG_ShellViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CDA1308150E783800F7E2D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDA1309150E783800F7E2D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CDA1311150E783800F7E2D5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDA1312150E783800F7E2D5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7CDA1317150E783800F7E2D5 /* LG_ShellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDA1318150E783800F7E2D5 /* en */,
+			);
+			name = LG_ShellViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDA131A150E783800F7E2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CDA131B150E783800F7E2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDA131D150E783800F7E2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LG Shell/LG Shell-Prefix.pch";
+				INFOPLIST_FILE = "LG Shell/LG Shell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CDA131E150E783800F7E2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LG Shell/LG Shell-Prefix.pch";
+				INFOPLIST_FILE = "LG Shell/LG Shell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDA12F5150E783800F7E2D5 /* Build configuration list for PBXProject "LG Shell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDA131A150E783800F7E2D5 /* Debug */,
+				7CDA131B150E783800F7E2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDA131C150E783800F7E2D5 /* Build configuration list for PBXNativeTarget "LG Shell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDA131D150E783800F7E2D5 /* Debug */,
+				7CDA131E150E783800F7E2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDA12F2150E783800F7E2D5 /* Project object */;
+}
