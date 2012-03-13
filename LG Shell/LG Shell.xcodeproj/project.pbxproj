@@ -16,6 +16,28 @@
 		7CDA1313150E783800F7E2D5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1311150E783800F7E2D5 /* MainWindow.xib */; };
 		7CDA1316150E783800F7E2D5 /* LG_ShellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1315150E783800F7E2D5 /* LG_ShellViewController.m */; };
 		7CDA1319150E783800F7E2D5 /* LG_ShellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1317150E783800F7E2D5 /* LG_ShellViewController.xib */; };
+		7CDA133D150E894E00F7E2D5 /* add folder icon_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1327150E894E00F7E2D5 /* add folder icon_l.png */; };
+		7CDA133E150E894E00F7E2D5 /* add folder icon_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1328150E894E00F7E2D5 /* add folder icon_p.png */; };
+		7CDA133F150E894E00F7E2D5 /* add to folder box_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1329150E894E00F7E2D5 /* add to folder box_l.png */; };
+		7CDA1340150E894E00F7E2D5 /* add to folder box.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA132A150E894E00F7E2D5 /* add to folder box.png */; };
+		7CDA1341150E894E00F7E2D5 /* back button_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA132B150E894E00F7E2D5 /* back button_l.png */; };
+		7CDA1342150E894E00F7E2D5 /* back button_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA132C150E894E00F7E2D5 /* back button_p.png */; };
+		7CDA1343150E894E00F7E2D5 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA132D150E894E00F7E2D5 /* back button.png */; };
+		7CDA1344150E894E00F7E2D5 /* background_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA132E150E894E00F7E2D5 /* background_l.jpg */; };
+		7CDA1345150E894E00F7E2D5 /* background_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA132F150E894E00F7E2D5 /* background_p.png */; };
+		7CDA1346150E894E00F7E2D5 /* closebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1330150E894E00F7E2D5 /* closebutton.png */; };
+		7CDA1347150E894E00F7E2D5 /* folder icon_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1331150E894E00F7E2D5 /* folder icon_l.png */; };
+		7CDA1348150E894E00F7E2D5 /* folder icon_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1332150E894E00F7E2D5 /* folder icon_p.png */; };
+		7CDA1349150E894E00F7E2D5 /* hsa logo small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1333150E894E00F7E2D5 /* hsa logo small.png */; };
+		7CDA134A150E894E00F7E2D5 /* hsa logo_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1334150E894E00F7E2D5 /* hsa logo_l.png */; };
+		7CDA134B150E894E00F7E2D5 /* hsa logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1335150E894E00F7E2D5 /* hsa logo.png */; };
+		7CDA134C150E894E00F7E2D5 /* info icon_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1336150E894E00F7E2D5 /* info icon_l.png */; };
+		7CDA134D150E894E00F7E2D5 /* info icon_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1337150E894E00F7E2D5 /* info icon_p.png */; };
+		7CDA134E150E894E00F7E2D5 /* previous button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1338150E894E00F7E2D5 /* previous button.png */; };
+		7CDA134F150E894E00F7E2D5 /* search icon_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1339150E894E00F7E2D5 /* search icon_l.png */; };
+		7CDA1350150E894E00F7E2D5 /* search icon_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA133A150E894E00F7E2D5 /* search icon_p.png */; };
+		7CDA1351150E894E00F7E2D5 /* settings icon_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA133B150E894E00F7E2D5 /* settings icon_l.png */; };
+		7CDA1352150E894E00F7E2D5 /* settings icon_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA133C150E894E00F7E2D5 /* settings icon_p.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +45,38 @@
 		7CDA12FF150E783800F7E2D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7CDA1301150E783800F7E2D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CDA1303150E783800F7E2D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7CDA1307150E783800F7E2D5 /* LG Shell-Info.plist */ = {isa = PBXFileReference; path = "LG Shell-Info.plist"; sourceTree = "<group>"; };
+		7CDA1307150E783800F7E2D5 /* LG Shell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LG Shell-Info.plist"; sourceTree = "<group>"; };
 		7CDA1309150E783800F7E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CDA130B150E783800F7E2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7CDA130D150E783800F7E2D5 /* LG Shell-Prefix.pch */ = {isa = PBXFileReference; path = "LG Shell-Prefix.pch"; sourceTree = "<group>"; };
-		7CDA130E150E783800F7E2D5 /* LG_ShellAppDelegate.h */ = {isa = PBXFileReference; path = LG_ShellAppDelegate.h; sourceTree = "<group>"; };
+		7CDA130D150E783800F7E2D5 /* LG Shell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LG Shell-Prefix.pch"; sourceTree = "<group>"; };
+		7CDA130E150E783800F7E2D5 /* LG_ShellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LG_ShellAppDelegate.h; sourceTree = "<group>"; };
 		7CDA130F150E783800F7E2D5 /* LG_ShellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LG_ShellAppDelegate.m; sourceTree = "<group>"; };
 		7CDA1312150E783800F7E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		7CDA1314150E783800F7E2D5 /* LG_ShellViewController.h */ = {isa = PBXFileReference; path = LG_ShellViewController.h; sourceTree = "<group>"; };
+		7CDA1314150E783800F7E2D5 /* LG_ShellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LG_ShellViewController.h; sourceTree = "<group>"; };
 		7CDA1315150E783800F7E2D5 /* LG_ShellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LG_ShellViewController.m; sourceTree = "<group>"; };
 		7CDA1318150E783800F7E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LG_ShellViewController.xib; sourceTree = "<group>"; };
+		7CDA1327150E894E00F7E2D5 /* add folder icon_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add folder icon_l.png"; path = "Graphics/add folder icon_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1328150E894E00F7E2D5 /* add folder icon_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add folder icon_p.png"; path = "Graphics/add folder icon_p.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1329150E894E00F7E2D5 /* add to folder box_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add to folder box_l.png"; path = "Graphics/add to folder box_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA132A150E894E00F7E2D5 /* add to folder box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add to folder box.png"; path = "Graphics/add to folder box.png"; sourceTree = SOURCE_ROOT; };
+		7CDA132B150E894E00F7E2D5 /* back button_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button_l.png"; path = "Graphics/back button_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA132C150E894E00F7E2D5 /* back button_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button_p.png"; path = "Graphics/back button_p.png"; sourceTree = SOURCE_ROOT; };
+		7CDA132D150E894E00F7E2D5 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "Graphics/back button.png"; sourceTree = SOURCE_ROOT; };
+		7CDA132E150E894E00F7E2D5 /* background_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_l.jpg; path = Graphics/background_l.jpg; sourceTree = SOURCE_ROOT; };
+		7CDA132F150E894E00F7E2D5 /* background_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_p.png; path = Graphics/background_p.png; sourceTree = SOURCE_ROOT; };
+		7CDA1330150E894E00F7E2D5 /* closebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = closebutton.png; path = Graphics/closebutton.png; sourceTree = SOURCE_ROOT; };
+		7CDA1331150E894E00F7E2D5 /* folder icon_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "folder icon_l.png"; path = "Graphics/folder icon_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1332150E894E00F7E2D5 /* folder icon_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "folder icon_p.png"; path = "Graphics/folder icon_p.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1333150E894E00F7E2D5 /* hsa logo small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hsa logo small.png"; path = "Graphics/hsa logo small.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1334150E894E00F7E2D5 /* hsa logo_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hsa logo_l.png"; path = "Graphics/hsa logo_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1335150E894E00F7E2D5 /* hsa logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hsa logo.png"; path = "Graphics/hsa logo.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1336150E894E00F7E2D5 /* info icon_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info icon_l.png"; path = "Graphics/info icon_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1337150E894E00F7E2D5 /* info icon_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info icon_p.png"; path = "Graphics/info icon_p.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1338150E894E00F7E2D5 /* previous button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "previous button.png"; path = "Graphics/previous button.png"; sourceTree = SOURCE_ROOT; };
+		7CDA1339150E894E00F7E2D5 /* search icon_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search icon_l.png"; path = "Graphics/search icon_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA133A150E894E00F7E2D5 /* search icon_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search icon_p.png"; path = "Graphics/search icon_p.png"; sourceTree = SOURCE_ROOT; };
+		7CDA133B150E894E00F7E2D5 /* settings icon_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings icon_l.png"; path = "Graphics/settings icon_l.png"; sourceTree = SOURCE_ROOT; };
+		7CDA133C150E894E00F7E2D5 /* settings icon_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings icon_p.png"; path = "Graphics/settings icon_p.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +96,7 @@
 		7CDA12F0150E783800F7E2D5 = {
 			isa = PBXGroup;
 			children = (
+				7CDA1325150E890200F7E2D5 /* Graphics */,
 				7CDA1305150E783800F7E2D5 /* LG Shell */,
 				7CDA12FE150E783800F7E2D5 /* Frameworks */,
 				7CDA12FC150E783800F7E2D5 /* Products */,
@@ -99,6 +144,36 @@
 				7CDA130D150E783800F7E2D5 /* LG Shell-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDA1325150E890200F7E2D5 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA1327150E894E00F7E2D5 /* add folder icon_l.png */,
+				7CDA1328150E894E00F7E2D5 /* add folder icon_p.png */,
+				7CDA1329150E894E00F7E2D5 /* add to folder box_l.png */,
+				7CDA132A150E894E00F7E2D5 /* add to folder box.png */,
+				7CDA132B150E894E00F7E2D5 /* back button_l.png */,
+				7CDA132C150E894E00F7E2D5 /* back button_p.png */,
+				7CDA132D150E894E00F7E2D5 /* back button.png */,
+				7CDA132E150E894E00F7E2D5 /* background_l.jpg */,
+				7CDA132F150E894E00F7E2D5 /* background_p.png */,
+				7CDA1330150E894E00F7E2D5 /* closebutton.png */,
+				7CDA1331150E894E00F7E2D5 /* folder icon_l.png */,
+				7CDA1332150E894E00F7E2D5 /* folder icon_p.png */,
+				7CDA1333150E894E00F7E2D5 /* hsa logo small.png */,
+				7CDA1334150E894E00F7E2D5 /* hsa logo_l.png */,
+				7CDA1335150E894E00F7E2D5 /* hsa logo.png */,
+				7CDA1336150E894E00F7E2D5 /* info icon_l.png */,
+				7CDA1337150E894E00F7E2D5 /* info icon_p.png */,
+				7CDA1338150E894E00F7E2D5 /* previous button.png */,
+				7CDA1339150E894E00F7E2D5 /* search icon_l.png */,
+				7CDA133A150E894E00F7E2D5 /* search icon_p.png */,
+				7CDA133B150E894E00F7E2D5 /* settings icon_l.png */,
+				7CDA133C150E894E00F7E2D5 /* settings icon_p.png */,
+			);
+			name = Graphics;
+			path = "LG Shell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +226,28 @@
 				7CDA130A150E783800F7E2D5 /* InfoPlist.strings in Resources */,
 				7CDA1313150E783800F7E2D5 /* MainWindow.xib in Resources */,
 				7CDA1319150E783800F7E2D5 /* LG_ShellViewController.xib in Resources */,
+				7CDA133D150E894E00F7E2D5 /* add folder icon_l.png in Resources */,
+				7CDA133E150E894E00F7E2D5 /* add folder icon_p.png in Resources */,
+				7CDA133F150E894E00F7E2D5 /* add to folder box_l.png in Resources */,
+				7CDA1340150E894E00F7E2D5 /* add to folder box.png in Resources */,
+				7CDA1341150E894E00F7E2D5 /* back button_l.png in Resources */,
+				7CDA1342150E894E00F7E2D5 /* back button_p.png in Resources */,
+				7CDA1343150E894E00F7E2D5 /* back button.png in Resources */,
+				7CDA1344150E894E00F7E2D5 /* background_l.jpg in Resources */,
+				7CDA1345150E894E00F7E2D5 /* background_p.png in Resources */,
+				7CDA1346150E894E00F7E2D5 /* closebutton.png in Resources */,
+				7CDA1347150E894E00F7E2D5 /* folder icon_l.png in Resources */,
+				7CDA1348150E894E00F7E2D5 /* folder icon_p.png in Resources */,
+				7CDA1349150E894E00F7E2D5 /* hsa logo small.png in Resources */,
+				7CDA134A150E894E00F7E2D5 /* hsa logo_l.png in Resources */,
+				7CDA134B150E894E00F7E2D5 /* hsa logo.png in Resources */,
+				7CDA134C150E894E00F7E2D5 /* info icon_l.png in Resources */,
+				7CDA134D150E894E00F7E2D5 /* info icon_p.png in Resources */,
+				7CDA134E150E894E00F7E2D5 /* previous button.png in Resources */,
+				7CDA134F150E894E00F7E2D5 /* search icon_l.png in Resources */,
+				7CDA1350150E894E00F7E2D5 /* search icon_p.png in Resources */,
+				7CDA1351150E894E00F7E2D5 /* settings icon_l.png in Resources */,
+				7CDA1352150E894E00F7E2D5 /* settings icon_p.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +378,7 @@
 				7CDA131E150E783800F7E2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
