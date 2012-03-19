@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeViewController.h"
+#import "TripsViewController.h"
+#import "MapsViewController.h"
+#import "SearchViewController.h"
+#import "ProfileViewController.h"
 
-@interface LG_ShellViewController : UIViewController
+@interface LG_ShellViewController : UITabBarController
+{
+    
+}
 
 @end

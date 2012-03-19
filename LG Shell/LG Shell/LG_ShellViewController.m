@@ -20,13 +20,23 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+     
+    HomeViewController* homevc = [[HomeViewController alloc] init];
+    TripsViewController* tripsvc = [[TripsViewController alloc] init];
+    MapsViewController* mapsvc = [[MapsViewController alloc] init];
+    SearchViewController* searchvc = [[SearchViewController alloc] init];
+    ProfileViewController* profilevc = [[ProfileViewController alloc] init];
+    
+    NSArray* controllers = [NSArray arrayWithObjects:homevc, tripsvc, mapsvc, searchvc, profilevc, nil];
+    self.viewControllers = controllers;
+    
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
