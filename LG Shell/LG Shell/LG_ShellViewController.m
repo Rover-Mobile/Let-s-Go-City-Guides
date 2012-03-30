@@ -31,7 +31,9 @@
     SearchViewController* searchvc = [[SearchViewController alloc] init];
     ProfileViewController* profilevc = [[ProfileViewController alloc] init];
     
-    NSArray* controllers = [NSArray arrayWithObjects:homevc, tripsvc, mapsvc, searchvc, profilevc, nil];
+    UINavigationController *homeNav = [[UINavigationController alloc]initWithRootViewController:homevc];
+    
+    NSArray* controllers = [NSArray arrayWithObjects:homeNav, tripsvc, mapsvc, searchvc, profilevc, nil];
     self.viewControllers = controllers;
     
     [super viewDidLoad];

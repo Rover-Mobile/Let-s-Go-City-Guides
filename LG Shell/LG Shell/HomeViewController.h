@@ -10,4 +10,6 @@
 
 @interface HomeViewController : UIViewController
 
+- (IBAction)myCitiesPressed:(id)sender;
+
 @end

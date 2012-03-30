@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "TALMyCitiesViewController.h"
 
 @interface HomeViewController ()
 
@@ -40,4 +41,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)myCitiesPressed:(id)sender {
+    NSArray *cities = [NSArray arrayWithObjects:@"City 1",@"City 2", @"City 3", nil];
+    TALMyCitiesViewController *vc = [[TALMyCitiesViewController alloc]initWithCities:cities];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 @end

@@ -12,6 +12,15 @@
 		30E3464A1516D39300C78706 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E346491516D39300C78706 /* MapsViewController.m */; };
 		30E3464D1516D39E00C78706 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3464C1516D39E00C78706 /* SearchViewController.m */; };
 		30E346501516D3B500C78706 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3464F1516D3B500C78706 /* ProfileViewController.m */; };
+		5F07DB2215256EEE00B8F8F1 /* TALAccomReadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F07DB2015256EEE00B8F8F1 /* TALAccomReadMoreViewController.m */; };
+		5F07DB2315256EEE00B8F8F1 /* TALAccomReadMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F07DB2115256EEE00B8F8F1 /* TALAccomReadMoreViewController.xib */; };
+		5F186D8E1520111800CB5B52 /* TALCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F186D8D1520111800CB5B52 /* TALCityViewController.m */; };
+		5F186D901520158600CB5B52 /* testphoto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5F186D8F1520158600CB5B52 /* testphoto.jpeg */; };
+		5F8A6D91151EC85200D0A84A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A6D90151EC85200D0A84A /* HomeViewController.xib */; };
+		5F8A6D9B151ECBF500D0A84A /* TALMyCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A6D9A151ECBF500D0A84A /* TALMyCitiesViewController.m */; };
+		5F90EDC415240E5500D224EA /* TALAccommodationsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90EDC315240E5500D224EA /* TALAccommodationsCell.m */; };
+		5F90EDC715240EA600D224EA /* TALAccommodationsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F90EDC615240EA600D224EA /* TALAccommodationsCell.xib */; };
+		5F90EDCA1524140E00D224EA /* TALAccommodationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90EDC91524140E00D224EA /* TALAccommodationsViewController.m */; };
 		7CDA1300150E783800F7E2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA12FF150E783800F7E2D5 /* UIKit.framework */; };
 		7CDA1302150E783800F7E2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA1301150E783800F7E2D5 /* Foundation.framework */; };
 		7CDA1304150E783800F7E2D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA1303150E783800F7E2D5 /* CoreGraphics.framework */; };
@@ -56,6 +65,20 @@
 		30E3464C1516D39E00C78706 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		30E3464E1516D3B500C78706 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		30E3464F1516D3B500C78706 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5F07DB1F15256EEE00B8F8F1 /* TALAccomReadMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALAccomReadMoreViewController.h; sourceTree = "<group>"; };
+		5F07DB2015256EEE00B8F8F1 /* TALAccomReadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALAccomReadMoreViewController.m; sourceTree = "<group>"; };
+		5F07DB2115256EEE00B8F8F1 /* TALAccomReadMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TALAccomReadMoreViewController.xib; sourceTree = "<group>"; };
+		5F186D8C1520111800CB5B52 /* TALCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALCityViewController.h; sourceTree = "<group>"; };
+		5F186D8D1520111800CB5B52 /* TALCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALCityViewController.m; sourceTree = "<group>"; };
+		5F186D8F1520158600CB5B52 /* testphoto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testphoto.jpeg; sourceTree = "<group>"; };
+		5F8A6D90151EC85200D0A84A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		5F8A6D99151ECBF500D0A84A /* TALMyCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALMyCitiesViewController.h; sourceTree = "<group>"; };
+		5F8A6D9A151ECBF500D0A84A /* TALMyCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALMyCitiesViewController.m; sourceTree = "<group>"; };
+		5F90EDC215240E5500D224EA /* TALAccommodationsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALAccommodationsCell.h; sourceTree = "<group>"; };
+		5F90EDC315240E5500D224EA /* TALAccommodationsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALAccommodationsCell.m; sourceTree = "<group>"; };
+		5F90EDC615240EA600D224EA /* TALAccommodationsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TALAccommodationsCell.xib; sourceTree = "<group>"; };
+		5F90EDC81524140E00D224EA /* TALAccommodationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALAccommodationsViewController.h; sourceTree = "<group>"; };
+		5F90EDC91524140E00D224EA /* TALAccommodationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALAccommodationsViewController.m; sourceTree = "<group>"; };
 		7CDA12FB150E783800F7E2D5 /* LG Shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LG Shell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDA12FF150E783800F7E2D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7CDA1301150E783800F7E2D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +131,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F8A6D98151ECBA500D0A84A /* MyCities */ = {
+			isa = PBXGroup;
+			children = (
+				5F8A6D99151ECBF500D0A84A /* TALMyCitiesViewController.h */,
+				5F8A6D9A151ECBF500D0A84A /* TALMyCitiesViewController.m */,
+				5F186D8C1520111800CB5B52 /* TALCityViewController.h */,
+				5F186D8D1520111800CB5B52 /* TALCityViewController.m */,
+				5F90EDC81524140E00D224EA /* TALAccommodationsViewController.h */,
+				5F90EDC91524140E00D224EA /* TALAccommodationsViewController.m */,
+				5F90EDC215240E5500D224EA /* TALAccommodationsCell.h */,
+				5F90EDC315240E5500D224EA /* TALAccommodationsCell.m */,
+				5F90EDC615240EA600D224EA /* TALAccommodationsCell.xib */,
+				5F07DB1F15256EEE00B8F8F1 /* TALAccomReadMoreViewController.h */,
+				5F07DB2015256EEE00B8F8F1 /* TALAccomReadMoreViewController.m */,
+				5F07DB2115256EEE00B8F8F1 /* TALAccomReadMoreViewController.xib */,
+			);
+			name = MyCities;
+			sourceTree = "<group>";
+		};
 		7CDA12F0150E783800F7E2D5 = {
 			isa = PBXGroup;
 			children = (
@@ -145,9 +187,10 @@
 				7CDA1314150E783800F7E2D5 /* LG_ShellViewController.h */,
 				7CDA1315150E783800F7E2D5 /* LG_ShellViewController.m */,
 				7CDA1317150E783800F7E2D5 /* LG_ShellViewController.xib */,
-				7CDA1306150E783800F7E2D5 /* Supporting Files */,
 				30E346411516D37100C78706 /* HomeViewController.h */,
 				30E346421516D37100C78706 /* HomeViewController.m */,
+				5F8A6D90151EC85200D0A84A /* HomeViewController.xib */,
+				5F8A6D98151ECBA500D0A84A /* MyCities */,
 				30E346451516D38700C78706 /* TripsViewController.h */,
 				30E346461516D38700C78706 /* TripsViewController.m */,
 				30E346481516D39300C78706 /* MapsViewController.h */,
@@ -156,6 +199,7 @@
 				30E3464C1516D39E00C78706 /* SearchViewController.m */,
 				30E3464E1516D3B500C78706 /* ProfileViewController.h */,
 				30E3464F1516D3B500C78706 /* ProfileViewController.m */,
+				7CDA1306150E783800F7E2D5 /* Supporting Files */,
 			);
 			path = "LG Shell";
 			sourceTree = "<group>";
@@ -163,6 +207,7 @@
 		7CDA1306150E783800F7E2D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F186D8F1520158600CB5B52 /* testphoto.jpeg */,
 				7CDA1307150E783800F7E2D5 /* LG Shell-Info.plist */,
 				7CDA1308150E783800F7E2D5 /* InfoPlist.strings */,
 				7CDA130B150E783800F7E2D5 /* main.m */,
@@ -273,6 +318,10 @@
 				7CDA1350150E894E00F7E2D5 /* search icon_p.png in Resources */,
 				7CDA1351150E894E00F7E2D5 /* settings icon_l.png in Resources */,
 				7CDA1352150E894E00F7E2D5 /* settings icon_p.png in Resources */,
+				5F8A6D91151EC85200D0A84A /* HomeViewController.xib in Resources */,
+				5F186D901520158600CB5B52 /* testphoto.jpeg in Resources */,
+				5F90EDC715240EA600D224EA /* TALAccommodationsCell.xib in Resources */,
+				5F07DB2315256EEE00B8F8F1 /* TALAccomReadMoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +340,11 @@
 				30E3464A1516D39300C78706 /* MapsViewController.m in Sources */,
 				30E3464D1516D39E00C78706 /* SearchViewController.m in Sources */,
 				30E346501516D3B500C78706 /* ProfileViewController.m in Sources */,
+				5F8A6D9B151ECBF500D0A84A /* TALMyCitiesViewController.m in Sources */,
+				5F186D8E1520111800CB5B52 /* TALCityViewController.m in Sources */,
+				5F90EDC415240E5500D224EA /* TALAccommodationsCell.m in Sources */,
+				5F90EDCA1524140E00D224EA /* TALAccommodationsViewController.m in Sources */,
+				5F07DB2215256EEE00B8F8F1 /* TALAccomReadMoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +393,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -356,7 +410,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
